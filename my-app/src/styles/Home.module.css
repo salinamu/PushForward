@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 24px;
+}
+.bg {
+    position: absolute;
+    z-index:-1;
+    background-image: url("../../public/assets/images/blacklivesmatter.jpg");
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 40%;
+    background-position: center;
+    
+}
+
+h1 {
+
+    margin: 0px;
+    padding: 0;
+    font-size: 6rem;
+
+}
+h2 {
+    margin: 0px;
+    padding: 0;
+    font-size: 4rem;
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 24rem;
+
+   
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 8rem;
+
+    }
+    h2 {
+        font-size: 6rem;
+
+    }
+   
+    .heading {
+        margin-top: 24rem;
+       
+    }
+    
+    
+ }
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 10rem;
+
+    }
+    h2 {
+        font-size: 8rem;
+
+    }
+    
+    .heading {
+
+        margin-top: 24rem;
+       
+    }
+    
+    
+ }
+
+
+
