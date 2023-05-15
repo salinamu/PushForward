@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/PushForward/static/css/main.073c9b0a.css",
-    "main.js": "/PushForward/static/js/main.e1fd5d57.js",
+    "main.css": "/PushForward/static/css/main.04c675b3.css",
+    "main.js": "/PushForward/static/js/main.1e71d213.js",
     "static/js/787.28cb0dcd.chunk.js": "/PushForward/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/PushForward/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/blacklivesmatter.jpg": "/PushForward/static/media/blacklivesmatter.1fbd38ac509cb4f232fa.jpg",
+    "static/media/Helvetica.ttf": "/PushForward/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/BebasNeue-Regular.ttf": "/PushForward/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/Humane-Regular.ttf": "/PushForward/static/media/Humane-Regular.0d363266145176e2d218.ttf",
     "index.html": "/PushForward/index.html",
-    "main.073c9b0a.css.map": "/PushForward/static/css/main.073c9b0a.css.map",
-    "main.e1fd5d57.js.map": "/PushForward/static/js/main.e1fd5d57.js.map",
+    "main.04c675b3.css.map": "/PushForward/static/css/main.04c675b3.css.map",
+    "main.1e71d213.js.map": "/PushForward/static/js/main.1e71d213.js.map",
     "787.28cb0dcd.chunk.js.map": "/PushForward/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e1fd5d57.js"
+    "static/css/main.04c675b3.css",
+    "static/js/main.1e71d213.js"
   ]
 }
