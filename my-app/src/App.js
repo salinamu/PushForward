@@ -8,9 +8,10 @@ import LearnMore from "./pages/learnmore";
 function App() {
   return (
     <div className="App">
+
       <Router>
         <Routes>
-          <Route path="/home" element={<Home />}>
+          <Route path="/" element={<Home />}>
             Home
           </Route>
           <Route path="/about" element={<About />}>
