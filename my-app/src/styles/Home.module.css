@@ -1,15 +1,5 @@
-.container {
-  position: relative;
-}
-.subcontainerbg {
-  padding: 24px;
-  position: relative;
-  height: 93vh;
-}
-.subcontainer {
-  margin: 48px 24px;
-  position: relative;
-}
+
+
 .bg {
   position: absolute;
   z-index: -1;
@@ -23,57 +13,46 @@
   opacity: 40%;
   background-position: center;
 }
-h1 {
-  margin: 0px;
-  padding: 0;
-  font-size: 6rem;
-}
-h2 {
-  margin: 0px;
-  padding: 0;
-  font-size: 4rem;
-}
-h3 {
-  margin: 0px;
-  padding: 0;
-  font-size: 6rem;
+.headings1 {
+  margin-bottom: 24px;
 }
 .heading {
   position: absolute;
   display: flex;
   flex-direction: column;
   bottom: 24px;
+  padding-right: 24px;
 }
-.flexrow {
-  display: flex;
-  flex-direction: column;
-}
-.s1{
+
+.s1 {
   width: 100%;
   margin-right: 0px;
+}
+.s2 {
+  position: relative;
+  background-color: #a4915f;
+  padding: 24px;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  margin-top: 24px;
 }
 
 .s3 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-height: 232px;
+  height: 232px;
+}
+.s4 {
+  width: 100%;
 }
 .captionedimage {
   display: flex;
   flex-direction: column;
+}
 
-}
-.accentedtext {
-  display: flex;
-  flex-direction: column;
-}
-.redaccent {
-  background-color: var(--red);
-  width: 6rem;
-  height: 1rem;
-  margin-bottom: 1rem;
-}
 .caption {
   font-size: 2rem;
   text-align: center;
@@ -97,19 +76,27 @@ height: 232px;
   height: 100%;
 }
 
+.phone {
+  position: relative;
+  background-image: url("../../public/assets/images/phone");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 48rem;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.footsteps {
+  position: relative;
+  background-image: url("../../public/assets/images/footsteps.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24rem;
+  margin-bottom: 24px;
+}
 .rightalign {
   text-align: right;
-}
-
-.s2 {
-  position: relative;
-  background-color: #a4915f;
-  padding: 24px;
-  height: 50%;
-  display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-  margin-top: 24px;
 }
 
 .scrolldown {
@@ -158,14 +145,15 @@ height: 232px;
     opacity: 0;
   }
 }
-
 @media (min-width: 768px) {
-  h1,
-  h3 {
-    font-size: 8rem;
+  .footsteps {
+    margin-bottom: 0px;
   }
-  h2 {
-    font-size: 6rem;
+
+  .internetracismp {
+    position: absolute;
+    bottom: 24px;
+    margin-left: 24px;
   }
   .s1 {
     width: 60%;
@@ -176,6 +164,12 @@ height: 232px;
     flex-direction: column;
     align-items: center;
     height: 100%;
+  }
+
+  .phone {
+    width: 100%;
+    height: 48rem;
+    margin-bottom: 0;
   }
   .s2 {
     display: flex;
@@ -191,7 +185,6 @@ height: 232px;
   .captionedimage {
     width: 24rem;
     height: 24rem;
-  
   }
   .flexrow {
     display: flex;
@@ -246,12 +239,3 @@ height: 232px;
   }
 }
 
-@media (min-width: 1024px) {
-  h1,
-  h3 {
-    font-size: 10rem;
-  }
-  h2 {
-    font-size: 8rem;
-  }
-}

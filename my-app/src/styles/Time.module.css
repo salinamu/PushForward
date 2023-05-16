@@ -1,163 +1,58 @@
-.container {
-    position: relative;
-    padding: 24px;
-  }
-  .subcontainer {
-    height: 100vh;
-  }
-  .bg {
-    position: absolute;
-    z-index: -1;
-    background-image: url("../../public/assets/images/blacklivesmatter.jpg");
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    opacity: 40%;
-    background-position: center;
-  }
-  h1 {
-    margin: 0px;
-    padding: 0;
-    font-size: 6rem;
-  }
-  h2 {
-    margin: 0px;
-    padding: 0;
-    font-size: 4rem;
-  }
-  h3 {
-    margin: 0px;
-    padding: 0;
-    font-size: 6rem;
-  }
-  .heading {
+.box {
+  background-color: white;
+  height: 24px;
+  width: 24px;
+  margin: 4rem 0;
+}
+
+.line {
+  background-color: white;
+  margin: 0 auto;
+  height: 4px;
+  width: 6rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  font-size: 32px;
+}
+
+.detail {
+  font-size: 0.8rem;
+}
+.timetext {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .timeline {
     display: flex;
     flex-direction: column;
-    margin-top: 12rem;
-  }
-  .flexrow {
-      display: flex;
-      flex-direction: column;
-    }
-    .s1 {
-      width: 100%;
-      margin-right: 0px;
-    }
-    .rightalign {
-      text-align: right;
-    }
-  
-    .s2 {
-      background-color: #a4915f;
-      padding: 24px;
-      height: 50%;
-      display: flex;
-      flex-direction: row;
-      overflow-x: auto;
-      margin-top: 64px;
-      
-    }
-  
-    .box {
-      background-color: white;
-      height: 24px;
-      width: 24px;
-      margin: 4rem 0;
-    }
-    
-    .line {
-      background-color: white;
-      margin: 0 auto;
-      height: 4px;
-      width: 6rem;
-    }
-  
-    .timeline {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-  .name {
-      font-size: 32px;
-    }
-    p {
-        font-size: 1rem;
-    
-    }
-    .detail {
-      font-size: 0.8rem;
-    }
-    .timetext {
-      display: flex;
-      flex-direction: column;
-      width: 60%;
-      margin: 0 auto;
-    }
-  @media (min-width: 768px) {
-    h1,
-    h3 {
-      font-size: 8rem;
-    }
-    h2 {
-      font-size: 6rem;
-    }
-    .s1 {
-    width: 60%;
-    margin-right: 24px;
-  }
-  .timeline {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    align-items: center;
   }
   .time {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  
-  .s2 {
-      display: flex;
-      flex-direction: column;
-    background-color: #a4915f;
-    height: 80vh;
-    padding: 24px;
-    width: 40%;
-    overflow-y: auto;
-    margin-top: 0px;
-  
-  }
-  
+
   .box {
     background-color: white;
     height: 24px;
     width: 24px;
     margin: 0 4rem;
   }
-  
+
   .line {
     background-color: white;
     margin: 0 auto;
     height: 6rem;
     width: 4px;
   }
-  .flexrow {
-      display: flex;
-      flex-direction: row;
-    }
-    
-  }
-  
-  @media (min-width: 1024px) {
-    h1,
-    h3 {
-      font-size: 10rem;
-    }
-    h2 {
-      font-size: 8rem;
-    }
-  }
-  
+}

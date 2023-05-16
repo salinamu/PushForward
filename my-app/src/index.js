@@ -5,11 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from "./pages/home/index.js";
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-  <Home/>
+  <App/>
 </div>
 );
 
