@@ -21,6 +21,7 @@ const Ul = styled.ul`
   }
  
   @media (max-width: 768px) {
+    z-index: 19;
 flex-direction: column;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
