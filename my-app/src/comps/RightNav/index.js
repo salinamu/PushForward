@@ -11,6 +11,26 @@ const Ul = styled.ul`
   margin: 0;
   padding: 0;
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after {
+    width: 100%;
+    left: 0;
+  }
   li {
     color: #fff;
     margin-right: 24px;

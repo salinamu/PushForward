@@ -1,6 +1,7 @@
 import styles from "../../styles/Home.module.css";
 import Navbar from "../../comps/Navbar";
 import Time from "../../comps/Time";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -149,7 +150,7 @@ const Home = () => {
             <div className={styles.footsteps} />
           </div>
           <div className={styles.s4}>
-          <div className="accentedtext">
+            <div className="accentedtext">
               <div className="redaccent" />
               <h2>Step Up Today, Change Tomorrow</h2>
             </div>
@@ -159,9 +160,20 @@ const Home = () => {
               Pretium ante pellentesque posuere sed ut neque nec. Sit mattis
               molestie morbi diam suscipit.
             </p>
+            <div className={styles.btncontainer}>
+              <Link to="/learnmore">
+                <button className={styles.draw}>Learn More</button>
+              </Link>
+              <Link to="https://docs.google.com/document/d/1tEgggIKFL2DkOSvg3i8yOxinVUFuhnSZfGTIVm-mPUw/edit?usp=sharing">
+                <button className={styles.draw}>Works Cited</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
+      <footer>
+        <p className={styles.codedby}>Coded And Designed By Salina Mu</p>
+      </footer>
     </div>
   );
 };

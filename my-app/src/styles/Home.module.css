@@ -46,6 +46,7 @@
   height: 232px;
 }
 .s4 {
+  position: relative;
   width: 100%;
 }
 .captionedimage {
@@ -144,6 +145,74 @@
     left: 90%;
     opacity: 0;
   }
+}
+.btncontainer {
+  float: left;
+  margin-top: 48px;
+  display: inline-grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, auto);
+}
+button {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  background: none;
+  border: 2px solid transparent;
+  border-color: red;
+  box-sizing: border-box;
+  padding: 0.5em 1em;
+  color: red;
+  position: relative;
+}
+button::before, button::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.draw {
+  transition: color 0.12s;
+}
+.draw::before, .draw::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.draw::before {
+  top: 0;
+  left: 0;
+}
+.draw::after {
+  bottom: 0;
+  right: 0;
+}
+.draw:hover {
+  color: white;
+}
+.draw:hover::before, .draw:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.draw:hover::before {
+  border-top-color: white;
+  border-right-color: white;
+  transition: width 0.12s ease-out, height 0.12s ease-out 0.12s;
+}
+.draw:hover::after {
+  border-bottom-color: white;
+  border-left-color: white;
+  transition: border-color 0s ease-out 0.25s, width 0.12s ease-out 0.25s, height 0.12s ease-out 0.36s;
+}
+footer {
+  margin: 96px 24px;
+
+}
+.codedby {
+
+  text-align: center;
+  font-weight: 700;
+  display: block;
 }
 @media (min-width: 768px) {
   .footsteps {
