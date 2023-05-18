@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PushForward/static/css/main.69130ee6.css",
-    "main.js": "/PushForward/static/js/main.33768b5b.js",
+    "main.css": "/PushForward/static/css/main.8b53b90a.css",
+    "main.js": "/PushForward/static/js/main.9c45fcf8.js",
     "static/js/787.28cb0dcd.chunk.js": "/PushForward/static/js/787.28cb0dcd.chunk.js",
     "static/media/blacklivesmatter.jpg": "/PushForward/static/media/blacklivesmatter.1fbd38ac509cb4f232fa.jpg",
     "static/media/Helvetica.ttf": "/PushForward/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
@@ -10,12 +10,12 @@
     "static/media/Humane-Regular.ttf": "/PushForward/static/media/Humane-Regular.0d363266145176e2d218.ttf",
     "static/media/MartinLutherKing.png": "/PushForward/static/media/MartinLutherKing.186dcf232a248db3f8af.png",
     "index.html": "/PushForward/index.html",
-    "main.69130ee6.css.map": "/PushForward/static/css/main.69130ee6.css.map",
-    "main.33768b5b.js.map": "/PushForward/static/js/main.33768b5b.js.map",
+    "main.8b53b90a.css.map": "/PushForward/static/css/main.8b53b90a.css.map",
+    "main.9c45fcf8.js.map": "/PushForward/static/js/main.9c45fcf8.js.map",
     "787.28cb0dcd.chunk.js.map": "/PushForward/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69130ee6.css",
-    "static/js/main.33768b5b.js"
+    "static/css/main.8b53b90a.css",
+    "static/js/main.9c45fcf8.js"
   ]
 }
