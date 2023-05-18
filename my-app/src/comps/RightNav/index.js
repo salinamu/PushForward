@@ -70,10 +70,6 @@ const RightNav = ({ open }) => {
       <li>
         <Link to="/about">About</Link>
       </li>
-      <li>
-      <Link to="/learnmore">Learn More</Link>
-
-      </li>
       
     </Ul>
   );

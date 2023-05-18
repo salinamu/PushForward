@@ -3,7 +3,7 @@ import "./styles/globals.css";
 import { BrowserRouter as Router, Route, Routes, Link, Navigate } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
-import LearnMore from "./pages/learnmore";
+import GetInvolved from "./pages/getinvolved";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route path="/about" element={<About />}/>
-          <Route path="/learnmore" element={<LearnMore />}/>
+          <Route path="/getinvolved" element={<GetInvolved />}/>
           <Route path = "*" element={<Navigate replace to="/" />}/>
         </Routes>
       </Router>

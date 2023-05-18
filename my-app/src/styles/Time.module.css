@@ -2,7 +2,7 @@
   background-color: white;
   height: 24px;
   width: 24px;
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .line {
@@ -27,8 +27,8 @@
 .timetext {
   display: flex;
   flex-direction: column;
-  width: 60%;
   margin: 0 auto;
+  height: 50%;
 }
 @media (min-width: 768px) {
   .timeline {
@@ -46,7 +46,7 @@
     background-color: white;
     height: 24px;
     width: 24px;
-    margin: 0 4rem;
+    margin: 0 3rem;
   }
 
   .line {
