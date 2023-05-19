@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PushForward/static/css/main.c9fc0122.css",
-    "main.js": "/PushForward/static/js/main.6536740d.js",
+    "main.css": "/PushForward/static/css/main.b03ca966.css",
+    "main.js": "/PushForward/static/js/main.b054264e.js",
     "static/js/787.28cb0dcd.chunk.js": "/PushForward/static/js/787.28cb0dcd.chunk.js",
     "static/media/blacklivesmatterprotest.jpg": "/PushForward/static/media/blacklivesmatterprotest.bd55a278b521a7974064.jpg",
     "static/media/Helvetica.ttf": "/PushForward/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
@@ -10,12 +10,12 @@
     "static/media/Humane-Regular.ttf": "/PushForward/static/media/Humane-Regular.0d363266145176e2d218.ttf",
     "static/media/MartinLutherKing.png": "/PushForward/static/media/MartinLutherKing.186dcf232a248db3f8af.png",
     "index.html": "/PushForward/index.html",
-    "main.c9fc0122.css.map": "/PushForward/static/css/main.c9fc0122.css.map",
-    "main.6536740d.js.map": "/PushForward/static/js/main.6536740d.js.map",
+    "main.b03ca966.css.map": "/PushForward/static/css/main.b03ca966.css.map",
+    "main.b054264e.js.map": "/PushForward/static/js/main.b054264e.js.map",
     "787.28cb0dcd.chunk.js.map": "/PushForward/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9fc0122.css",
-    "static/js/main.6536740d.js"
+    "static/css/main.b03ca966.css",
+    "static/js/main.b054264e.js"
   ]
 }
