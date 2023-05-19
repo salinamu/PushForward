@@ -11,7 +11,7 @@ const Home = () => {
         <div className={styles.bg}></div>
         <div className={styles.heading}>
           <h1>Push Forward</h1>
-          <h2>Overcoming stagnant progress in racial justice </h2>
+          <h2>Overcoming Stagnant Progress In Racial Justice </h2>
         </div>
       </div>
       <div className="subcontainer">
