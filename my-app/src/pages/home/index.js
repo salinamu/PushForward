@@ -15,6 +15,34 @@ const Home = () => {
         </div>
       </div>
       <div className="subcontainer">
+        <div className={styles.headings1}>
+          <h2>
+            To What Extent Has Racism Externally Evolved Through Time, Yet How
+            Has It Also Remained the Same?
+          </h2>
+          <p>
+            The Civil Rights Movement stands as a testament to the collective
+            determination to forge a society free from the shackles of racial
+            inequality. Yet, as we survey the landscape of our present reality,
+            we must confront a disheartening truth: the quest for true racial
+            equality remains an unfinished battle. Regrettably, discrimination
+            has persisted and continues to be deeply ingrained in our systems
+            and structures. Even the advent of social media, a platform that
+            promised to unite and amplify voices, has not eradicated this
+            scourge entirely; on the contrary, it has only allowed racism to
+            take on new alarming forms that we have yet to address. The insights
+            of influential leaders such as Malcolm X and Martin Luther King Jr.
+            are as pertinent today as they were in the past, serving as a
+            reminder of the work that still needs to be accomplished. It is
+            imperative that we take decisive action to confront and dismantle
+            systemic inequities through candid conversations, self-reflection,
+            and tangible actions. By acknowledging our past and working towards
+            a future of genuine equality and justice, we can liberate ourselves
+            from the shackles of racism.
+          </p>
+        </div>
+      </div>
+      <div className="subcontainer">
         <div className="flexrow">
           <div className={styles.s1}>
             <div className={styles.headings1}>
@@ -22,26 +50,40 @@ const Home = () => {
               <h2 className={styles.rightalign}>The First 50 Years</h2>
             </div>
             <p>
-              Progress toward equality for the black community in the first 50
-              years of the fight against poverty, desegregation, and labor
-              equity was significant. Since the early 1900s, America has made
-              strides toward change through legislation like the New Deal, which
-              aimed to address wage gaps and job discrimination faced by
-              marginalized communities. However, despite continued efforts,
-              progress made during this time period has not been matched in
-              subsequent decades. This is concerning, as America should be
-              making more progress now than it did when it first began its fight
-              for equality. While laws have been enacted, they have not
-              necessarily had the intended effect. It's possible that external
-              factors like these laws have made people complacent, leading to
-              less progress than was made during the 1900s. True progress
-              towards equality will come from making internal, informal
-              adjustments that impact people's everyday lives. This is a
-              systemic issue that requires continued effort to address. It's
-              important to remember that historically, the greatest progress
-              toward equality was made when the movement had the least amount of
-              support. America must work to adopt the same level of development
-              in order to achieve true equality.
+              Are we truly making progress in the fight for racial equality?
+              When we examine the history of the black community's struggle
+              against poverty, desegregation, and labor inequity, it becomes
+              evident that the most significant advancements were made within
+              the first 50 years of this arduous battle. Beginning in the early
+              1900s, America witnessed a surge of change, spurred by legislative
+              efforts like the New Deal, aimed at promoting economic freedoms
+              and job opportunities for marginalized communities. While these
+              positive trends continued to some extent from the 1940s to the
+              1970s, we have since witnessed a slowdown in the rate of progress.
+              Astonishingly, it seems that America achieved greater advancements
+              when starting from base 1, rather than building upon the
+              foundations that have been laid over the years. This discrepancy
+              is disconcerting, especially considering the abundant resources
+              and broader support available to the movement today. Despite
+              heightened attention and awareness surrounding the fight for
+              racial equality, the actual change experienced has been
+              disappointingly minimal. Perhaps part of the reason for this
+              disparity lies in the fact that while laws and precedents have
+              been established to promote equity, they have failed to address
+              the root causes of ongoing discrimination, protests, and riots
+              that we continue to witness in America today. The Black Lives
+              Matter movement and the tragic events surrounding George Floyd are
+              stark reminders of this sobering reality. True progress lies not
+              merely in enacting laws, but in effecting internal, informal
+              adjustments that elevate equality. It is worth noting that
+              historically, the greatest strides toward racial equality were
+              made when the movement had the least support. Today, we find
+              ourselves in a paradoxical situation where America has failed to
+              maintain the same momentum of development. It is imperative that
+              we recognize this stagnation and recommit ourselves to the pursuit
+              of genuine change. We must strive for the internal shifts
+              necessary to dismantle systemic racism and foster a society where
+              equality is not just a lofty ideal, but a lived reality for all.
             </p>
           </div>
           <div className={styles.s2}>
@@ -121,16 +163,40 @@ const Home = () => {
             </div>
 
             <p>
-              One cannot be American and not know the legacy of Martin Luther
-              King. One cannot have grown up in this country and not have heard
-              the famous words, “I have a dream…” and feel the significance
-              those words hold. But as children of America, it can be easy to
-              believe that the issues and concepts that historical figures like
-              Malcolm X and Dr King stood for no longer hold prevalence. Times
-              have changed, Jim Crow laws have been outlawed, there are no
-              longer “WHITE ONLY” signs hanging over restaurants and water
-              fountains, and physically, segregation no longer exists in this
-              country.
+              Are we truly making progress in the fight for racial equality?
+              When we examine the history of the black community's struggle
+              against poverty, desegregation, and labor inequity, it becomes
+              evident that the most significant advancements were made within
+              the first 50 years of this arduous battle. Beginning in the early
+              1900s, America witnessed a surge of change, spurred by legislative
+              efforts like the New Deal, aimed at promoting economic freedoms
+              and job opportunities for marginalized communities. While these
+              positive trends continued to some extent from the 1940s to the
+              1970s, we have since witnessed a slowdown in the rate of progress.
+              Astonishingly, it seems that America achieved greater advancements
+              when starting from base 1, rather than building upon the
+              foundations that have been laid over the years. This discrepancy
+              is disconcerting, especially considering the abundant resources
+              and broader support available to the movement today. Despite
+              heightened attention and awareness surrounding the fight for
+              racial equality, the actual change experienced has been
+              disappointingly minimal. Perhaps part of the reason for this
+              disparity lies in the fact that while laws and precedents have
+              been established to promote equity, they have failed to address
+              the root causes of ongoing discrimination, protests, and riots
+              that we continue to witness in America today. The Black Lives
+              Matter movement and the tragic events surrounding George Floyd are
+              stark reminders of this sobering reality. True progress lies not
+              merely in enacting laws, but in effecting internal, informal
+              adjustments that elevate equality. It is worth noting that
+              historically, the greatest strides toward racial equality were
+              made when the movement had the least support. Today, we find
+              ourselves in a paradoxical situation where America has failed to
+              maintain the same momentum of development. It is imperative that
+              we recognize this stagnation and recommit ourselves to the pursuit
+              of genuine change. We must strive for the internal shifts
+              necessary to dismantle systemic racism and foster a society where
+              equality is not just a lofty ideal, but a lived reality for all.
             </p>
           </div>
         </div>
@@ -165,26 +231,28 @@ const Home = () => {
           </div>
           <div className={styles.s4}>
             <p className={styles.internetracismp}>
-              Since those first fifty years, we’ve entered a new era of
-              revolutionary technology characterized by evolving norms of
-              interaction and communication. Fighting against racism in this new
-              age feels like being thrust into a boxing match without
-              understanding the rules of how to win. Most notably, the advent of
-              social media has changed the way racism permeates the cultural
-              fabric of our society. While it has provided a platform for people
-              of color to voice their opinions and garner substantial support
-              for influential movements, it has also become a tool for
-              privileged people in power to silence those same marginalized
-              groups through various forms of censorship. This may manifest as
-              reporting, deleting, and shadow banning accounts that have not
-              actually violated any community guidelines but have simply
-              offended those who disagree with their movement. It is essential
-              to recognize the complex interplay between social media and
-              racism, acknowledging both its potential for empowerment and the
-              challenges it poses in terms of censorship and suppression. By
-              understanding these dynamics, we can navigate this new terrain
-              more effectively and work towards a more inclusive and just
-              society.
+              ​​In a world where technology has propelled us into unprecedented
+              realms of connectivity, we find ourselves facing a paradox. The
+              advent of social media, with its promise of fostering
+              communication and understanding, has also become a double-edged
+              sword, deepening the wounds of racism. As we navigate this new era
+              of revolutionary technology, we are confronted with a stark
+              reality—a reality where the struggle against racism takes on a
+              perplexing form, comparable to stepping into a boxing ring without
+              understanding the rules of engagement. It is a realm where people
+              of color find strength and solidarity yet also an opportunity for
+              privileged wielders of power to exploit their advantage to silence
+              the very voices they claim to protect. Black organizations are
+              sometimes reported for violating community guidelines, not because
+              they have violated any rules, but because a user disagrees with
+              their cause. This leads to detrimental consequences such as shadow
+              banning, deleted profiles, and removal of content, with little
+              means for these organizations to fight back. In this era of
+              instant connection and global reach, racial hatred spreads like
+              wildfire, hindering progress. The question then arises: How can we
+              confront this complex interplay between social media and racism
+              and build a digital landscape that fosters inclusion, equity, and
+              safety for all?
             </p>
           </div>
         </div>
@@ -200,30 +268,30 @@ const Home = () => {
               <h2>Step Up Today, Change Tomorrow</h2>
             </div>
             <p>
-              Since our lowest point in disregarding basic human rights, before
-              voting rights and laws protecting people of color, we have made
-              significant progress. This is not a complaint but a celebration of
-              our unwavering commitment to achieving greater equality regardless
-              of skin color. We have witnessed remarkable advancements over the
-              past fifty years, proving that change is possible. However, change
-              is an ambitious endeavor. Speaking out against the odds was
-              uncomfortable then and it is uncomfortable now; that's why
-              education is crucial. We need to familiarize ourselves with the
-              current constraints and break free from them. This involves
-              studying history, staying informed through the news, and
-              connecting with supportive individuals. Only then can we be
-              prepared to initiate the progress we envision for the future. We
-              need to wake up from this period of idleness. If our current
-              efforts are not effective, we must turn up the volume. We need to
-              gather more support, go beyond signing petitions, and actively
-              engage with elected officials, attend community meetings, and join
-              organizations dedicated to racial justice. If what we are doing
-              now is not enough, we must do more. Increase the noise and make it
-              known that the time for change is now.
+              As a society, we have made significant strides toward achieving
+              equality for people of color. We should take pride in our
+              unwavering dedication to this cause instead of focusing on the
+              challenges we still face. The progress we have seen over the past
+              half-century is a testament to the fact that change is possible.
+              Nonetheless, change is not easy, and we must be willing to step
+              beyond our comfort zones. Education is the key to understanding
+              current constraints, and we can achieve this by studying history,
+              keeping up with current events, and seeking out supportive
+              individuals. These steps will enable us to work towards the
+              progress we hope to see in the future. We must be active in our
+              efforts. If our current methods are not effective, we must
+              increase our efforts and gather more support. We must do more than
+              just sign petitions; we need to engage with elected officials,
+              attend community meetings, and join organizations dedicated to
+              racial justice. If we want to see change, we must make our voices
+              heard and let it be known that the time for change is now.
             </p>
             <div className={`${"btncontainer"} ${styles.btncontainermargin}`}>
               <Link to="https://docs.google.com/document/d/1tEgggIKFL2DkOSvg3i8yOxinVUFuhnSZfGTIVm-mPUw/edit?usp=sharing">
                 <button className={"draw"}>Works Cited</button>
+              </Link>
+              <Link to="/about">
+                <button className={"draw"}>About</button>
               </Link>
             </div>
           </div>
