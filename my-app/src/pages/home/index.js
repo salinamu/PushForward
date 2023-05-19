@@ -163,40 +163,36 @@ const Home = () => {
             </div>
 
             <p>
-              Are we truly making progress in the fight for racial equality?
-              When we examine the history of the black community's struggle
-              against poverty, desegregation, and labor inequity, it becomes
-              evident that the most significant advancements were made within
-              the first 50 years of this arduous battle. Beginning in the early
-              1900s, America witnessed a surge of change, spurred by legislative
-              efforts like the New Deal, aimed at promoting economic freedoms
-              and job opportunities for marginalized communities. While these
-              positive trends continued to some extent from the 1940s to the
-              1970s, we have since witnessed a slowdown in the rate of progress.
-              Astonishingly, it seems that America achieved greater advancements
-              when starting from base 1, rather than building upon the
-              foundations that have been laid over the years. This discrepancy
-              is disconcerting, especially considering the abundant resources
-              and broader support available to the movement today. Despite
-              heightened attention and awareness surrounding the fight for
-              racial equality, the actual change experienced has been
-              disappointingly minimal. Perhaps part of the reason for this
-              disparity lies in the fact that while laws and precedents have
-              been established to promote equity, they have failed to address
-              the root causes of ongoing discrimination, protests, and riots
-              that we continue to witness in America today. The Black Lives
-              Matter movement and the tragic events surrounding George Floyd are
-              stark reminders of this sobering reality. True progress lies not
-              merely in enacting laws, but in effecting internal, informal
-              adjustments that elevate equality. It is worth noting that
-              historically, the greatest strides toward racial equality were
-              made when the movement had the least support. Today, we find
-              ourselves in a paradoxical situation where America has failed to
-              maintain the same momentum of development. It is imperative that
-              we recognize this stagnation and recommit ourselves to the pursuit
-              of genuine change. We must strive for the internal shifts
-              necessary to dismantle systemic racism and foster a society where
-              equality is not just a lofty ideal, but a lived reality for all.
+              One cannot be American and not know the legacy of Martin Luther
+              King. One cannot have grown up in this country and not have heard
+              the famous words, “I have a dream…” and feel the significance
+              those words hold. But as children of America, it can be easy to
+              believe that the issues and concepts that historical figures like
+              Malcolm X and Dr. King stood for no longer hold prevalence. Times
+              have changed, Jim Crow laws have been outlawed, there are no
+              longer “WHITE ONLY” signs hanging over restaurants and water
+              fountains, and physically, segregation no longer exists in this
+              country. That said, though these laws no longer exist on the
+              physical plane, racism still has its claws dug deep into the
+              foundation of this country. The names George Floyd, Ahmaud Arbery,
+              and Breonna Taylor, all stand as a reminder of this. Blunt racism
+              shows its face every day in police brutality, discrimination in
+              the workplace and online, and the unlawful killings of black
+              American citizens. We are not equal. The hope that one day our
+              children will live in a world where “they will not be judged by
+              the color of their skin but by the content of their character,”
+              has not been met (King). Ergo, the words and the messages that
+              figures like Malcolm X and Dr. King lived to promulgate have just
+              as much prevalence as they did 50 years ago. Malcolm X believed in
+              standing up for justice and taking risks in the face of
+              discrimination. He had a fire lit within him to fight back against
+              the systemic racism of America, and that fire remains blazing in
+              so many black Americans in the present day. We see this in the
+              Black Lives Matter protests, the anger, and the persistence of
+              protesters to fight for equality. Malcolm X’s words and
+              willingness to fight for a cause live in them and will keep them
+              pushing till the day we find equality. The truth in messages of
+              the past still applies to society, no matter the time period.
             </p>
           </div>
         </div>
