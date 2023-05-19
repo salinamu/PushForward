@@ -1,5 +1,6 @@
-
-
+.videocontainer {
+  aspect-ratio: 16 / 9;
+}
 .bg {
   position: absolute;
   z-index: -1;
@@ -148,16 +149,13 @@
 }
 footer {
   margin: 96px 24px;
-
 }
 .codedby {
-
   text-align: center;
   font-weight: 700;
   display: block;
 }
 .btncontainermargin {
-
   margin-top: 48px;
 }
 @media (min-width: 768px) {
@@ -169,6 +167,10 @@ footer {
     position: absolute;
     bottom: 24px;
     margin-left: 24px;
+  }
+  .videocontainer {
+    margin: 0 auto;
+    max-width: 560px;
   }
   .s1 {
     width: 60%;
@@ -253,4 +255,3 @@ footer {
     }
   }
 }
-
