@@ -202,15 +202,17 @@ const Home = () => {
           <div className="redaccent" />
           <h2>Malcolm X’s Fiery Speech Addressing Police Brutality</h2>
         </div>
+        <div className= {styles.videocontainer}>
         <iframe
-          width="560"
-          height="315"
+          width="100%"
+          height="100%"
           src="https://www.youtube.com/embed/6_uYWDyYNUg"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
+        </div>
       </div>
       <div className="subcontainer">
         <div className="flexrow">
