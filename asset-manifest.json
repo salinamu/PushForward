@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PushForward/static/css/main.8b53b90a.css",
-    "main.js": "/PushForward/static/js/main.9c45fcf8.js",
+    "main.css": "/PushForward/static/css/main.c9fc0122.css",
+    "main.js": "/PushForward/static/js/main.fea43884.js",
     "static/js/787.28cb0dcd.chunk.js": "/PushForward/static/js/787.28cb0dcd.chunk.js",
-    "static/media/blacklivesmatter.jpg": "/PushForward/static/media/blacklivesmatter.1fbd38ac509cb4f232fa.jpg",
+    "static/media/blacklivesmatterprotest.jpg": "/PushForward/static/media/blacklivesmatterprotest.bd55a278b521a7974064.jpg",
     "static/media/Helvetica.ttf": "/PushForward/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/BebasNeue-Regular.ttf": "/PushForward/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "static/media/phone": "/PushForward/static/media/phone.c7af0aa532e3e6e6c3d2",
     "static/media/Humane-Regular.ttf": "/PushForward/static/media/Humane-Regular.0d363266145176e2d218.ttf",
     "static/media/MartinLutherKing.png": "/PushForward/static/media/MartinLutherKing.186dcf232a248db3f8af.png",
     "index.html": "/PushForward/index.html",
-    "main.8b53b90a.css.map": "/PushForward/static/css/main.8b53b90a.css.map",
-    "main.9c45fcf8.js.map": "/PushForward/static/js/main.9c45fcf8.js.map",
+    "main.c9fc0122.css.map": "/PushForward/static/css/main.c9fc0122.css.map",
+    "main.fea43884.js.map": "/PushForward/static/js/main.fea43884.js.map",
     "787.28cb0dcd.chunk.js.map": "/PushForward/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b53b90a.css",
-    "static/js/main.9c45fcf8.js"
+    "static/css/main.c9fc0122.css",
+    "static/js/main.fea43884.js"
   ]
 }
